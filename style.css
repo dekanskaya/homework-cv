@@ -1,0 +1,320 @@
+/*@font-face {
+	font-family: MyriadPro;
+	src: url(font/MyriadPro.zip);
+}*/
+@font-face {
+    font-family: 'Myriad Pro Light';
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: url('../fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Light.woff') format('woff'),
+    url('../fonts/MyriadPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;    
+}
+body {
+	width: 1200px;
+}
+.wrapper {
+	float: left;
+	width: 1200px;
+	height: 1754px;
+	margin: 0 auto;
+	
+}
+
+.start{
+	position: relative;
+	left: 91px;
+	width: 554px;
+	height: 804px;
+	background-color:;
+
+	
+}
+
+.first {
+	
+}
+
+.circle {
+	position: relative;
+	left: 115px;
+	width: 406px;
+	height: 406px;
+	/*padding: 20px;*/
+	
+}
+
+.name {
+	position: relative;
+	left: 230px;
+	width: 548px;
+	height: 74px;
+	color: #000000;
+	font-family: MyriadPro-LightSemiExt,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 25px;
+	line-height: 50px;
+	
+}
+
+.surname {
+	position: relative;
+	left: 215px;
+	width: 553px;
+	height: 85px;
+	color: #000000;
+	font-family: MyriadPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 38px;
+	line-height: 5px;
+}
+
+.graphic {
+	position: relative;
+	left: 220px;
+	bottom: 20px;
+	width: 422px;
+	height: 34px;
+	color: #000000;
+	font-family: MyriadPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 18px;
+}
+	
+.bluetext {
+	position: relative;
+	left: 65px;
+	bottom: 65px;
+	width: 300px;
+	height: 57px;
+	display: inline-block;
+	font-family: MyriadPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 27px;
+	color: #3D6CB0;
+
+}
+
+.ico {
+	position: relative;
+	left: 40px;
+	width: 148px;
+	height: 143px;
+}
+
+.profile {
+	
+	width: 828px;
+	height: 645px;
+	margin: 40px;
+	/*padding: 40px;*/
+	background-color: ;
+
+
+}
+
+.line-profile {
+	border: none;
+	background-color: #3D6CB0;
+	color: #3D6CB0;
+	width: 60%;
+	height: 11px;
+	position: relative;
+	left: 340px;
+	top: 75px;
+
+}
+
+.text-profile {
+	padding-top: 20px;
+	color: #000000;
+	font-family: MyriadPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 24px;
+	}
+
+.second {
+	
+	width: 828px;
+	height: 579px;
+	margin: 40px;
+	background-color:;
+}
+
+.line-contact {
+	width: 57%;
+	height: 11px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    border: none;
+	background-color: #3D6CB0;
+	color: #3D6CB0;
+}
+
+.count {
+
+	color: #3D6CB0;
+	font-family: MyriadPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: bolder; 
+	margin: 40px;
+}
+
+.info {
+	position: relative;
+	left: 38px;
+	color: #000000;
+	font-family: AdobeInvisFont,MyriadPro-Regular;
+	font-size: 20px;
+}
+
+.third {
+	
+	width: 822px;
+	height: 756px;
+	margin: 40px;
+	background-color: ;
+}
+
+.line-skills {
+	width: 60%;
+	height: 11px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    border: none;
+	background-color: #3D6CB0;
+	color: #3D6CB0;
+	
+}
+
+.text-skills {
+	width: 200px;
+	position: relative;
+	left: 60px;
+	color: #000000;
+	font-family: AdobeInvisFont,MyriadPro-Regular;
+	font-size: 25px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.drops {
+	width: 645px;
+	height: 491px;
+	position: relative;
+	left: 69px;
+	/*margin: 40px;
+	padding: 20px;*/
+	background-color: ;
+}
+
+/*.cool {
+	margin-left: 1125px;
+}
+*/
+
+.fourth {
+	position: relative;
+	left: 1200px;
+	bottom: 1700px;
+	margin: 20px;
+	width: 1265px;
+	height: 1262px;
+	background-color:;
+}
+
+.line-education {
+	width: 70%;
+	height: 11px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    border: none;
+	background-color: #3D6CB0;
+	color: #3D6CB0;
+}
+
+.text-edu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+	font-family: AdobeInvisFont,MyriadPro-Regular;
+	font-size: 24px;
+	text-align: left;
+	}
+.master {
+	color: #3D6CB0;
+	font-family: MyriadPro-Bold,AdobeInvisFont,MyriadPro-Regular;
+	font-size: 16px;
+
+}
+
+.fifth {
+	position: relative;
+	left: 1200px;
+	bottom: 1000px;
+	margin: 20px;
+	padding: 20px;
+	width: 1265px;
+	height: 1026px;
+	background-color:;
+}
+.line-experience {
+	width: 67%;
+	height: 11px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    border: none;
+	background-color: #3D6CB0;
+	color: #3D6CB0;
+}
+.text-exp {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #000000;
+	font-family: AdobeInvisFont,MyriadPro-Regular;
+	font-size: 24px;
+	text-align: left;
+}
+.sixth {
+	position: relative;
+	left: 1200px;
+	bottom: 500px;
+	width: 1265px;
+	height: 668px; 
+}
+.line-software {
+	width: 70%;
+	height: 11px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    border: none;
+	background-color: #3D6CB0;
+	color: #3D6CB0;
+}
+footer {
+	position: relative;
+	left: 700px;
+
+	width: 736px;
+	height: 75px;
+	clear: both;
+
+}
+@media screen and (max-width: 1200px) 
+and (min-width: 560px)
+{
+	body {width: 100%;}
+}
